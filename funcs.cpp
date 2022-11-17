@@ -34,7 +34,6 @@ int minutesUntil(Time earlier, Time later)
     else
     {
         int newLater = later.m + 60;
-        timeSince -= 60;
         timeSince += later.m - earlier.m;
     }
     return timeSince;
